@@ -3,11 +3,11 @@
   "category": "misc",
   "ingredients":[
     {
-      "item": "firstmod:holy_block",
+      "item": "firstmod:holy_block"
     }
   ],
   "result": {
     "count": 9,
     "id":"firstmod:holy"
   }
-},
+}
