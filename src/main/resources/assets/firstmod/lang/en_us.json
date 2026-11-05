@@ -3,5 +3,8 @@
   "item.firstmod.odd_holy": "The Holy?",
 
   "block.firstmod.holy_block": "The Holy Block",
-  "block.firstmod.holy_ore": "Holy Ore"
+  "block.firstmod.holy_ore": "Holy Ore",
+
+  "creativetab.firstmod.holy_items": "Holy Items",
+  "creativetab.firstmod.holy_blocks": "Holy Blocks"
 }
