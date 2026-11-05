@@ -27,7 +27,7 @@ public class ModCreativeModeTabs {
     public static final Supplier<CreativeModeTab> HOLY_BLOCK_TAB = CREATIVE_MODE_TAB.register("holy_blocks_tab",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.HOLY_BLOCK))
                     .withTabsBefore(ResourceLocation.fromNamespaceAndPath(FirstMod.MODID, "holy_items_tab"))
-                    .title(Component.translatable("creativetab.firstmod.holy_items"))
+                    .title(Component.translatable("creativetab.firstmod.holy_blocks"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModBlocks.HOLY_BLOCK);
                         output.accept(ModBlocks.HOLY_ORE);
