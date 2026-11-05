@@ -1,5 +1,6 @@
 package net.Sokra21.firstmod;
 
+import net.Sokra21.firstmod.block.ModBlocks;
 import net.Sokra21.firstmod.item.ModItems;
 import org.slf4j.Logger;
 
@@ -50,6 +51,7 @@ public class FirstMod {
         NeoForge.EVENT_BUS.register(this);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
@@ -76,6 +78,11 @@ public class FirstMod {
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.HOLY);
             event.accept(ModItems.ODD_HOLY);
+        }
+
+        if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept(ModBlocks.HOLY_BLOCK);
+            event.accept(ModBlocks.HOLY_ORE);
         }
     }
 

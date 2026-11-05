@@ -1,4 +1,7 @@
 {
   "item.firstmod.holy": "Holy",
-  "item.firstmod.odd_holy": "The Holy?"
+  "item.firstmod.odd_holy": "The Holy?",
+
+  "block.firstmod.holy_block": "The Holy Block",
+  "block.firstmod.holy_ore": "Holy Ore"
 }
